@@ -1,0 +1,15 @@
+kafkaSource.type=com.zyb.longHu.component.source.FlinkKafkaSourceMonitorComponent
+kafkaSource.kafka.bootstrap.servers=172.29.148.8:9092
+kafkaSource.kafka.topics=yikeapp
+kafkaSource.kafka.consumer.group.id=yikeapp
+kafkaSource.kafka.consumer.enable.auto.commit=true
+kafkaSource.kafka.consumer.auto.offset.reset=earliest
+
+
+influx.httpHost=http://172.29.148.16:8841
+influx.dbName=monitor
+influx.user=admin
+influx.pass=admin
+influx.batchSize=10
+influx.maxInterval=15
+influx.measurement=yikeappMonitor
