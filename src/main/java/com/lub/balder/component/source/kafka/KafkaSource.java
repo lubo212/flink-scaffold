@@ -2,7 +2,6 @@ package com.lub.balder.component.source.kafka;
 
 import com.lub.balder.component.source.Source;
 import com.lub.balder.config.Context;
-import com.lub.balder.exception.FlinkConfigurationError;
 import com.lub.balder.exception.FlinkException;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
